@@ -9,3 +9,6 @@ services:
       - .:/srv/jekyll
     ports:
       - 4000:4000
+    environment:
+      JEKYLL_UID: 1001
+      JEKYLL_GID: 1001
